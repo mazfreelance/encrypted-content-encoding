@@ -1,11 +1,11 @@
 <?php
-namespace DevJack\EncryptedContentEncoding\Test;
+namespace Mazfreelance\EncryptedContentEncoding\Test;
 
 use PHPUnit\Framework\TestCase;
 
-use DevJack\EncryptedContentEncoding\RFC8188;
-use DevJack\EncryptedContentEncoding\Test\Mock\MockKeyLookupProvider;
-use DevJack\EncryptedContentEncoding\Exception\EncryptionKeyNotFound;
+use Mazfreelance\EncryptedContentEncoding\RFC8188;
+use Mazfreelance\EncryptedContentEncoding\Test\Mock\MockKeyLookupProvider;
+use Mazfreelance\EncryptedContentEncoding\Exception\EncryptionKeyNotFound;
 use Base64Url\Base64Url as b64;
 
 final class RFC8188Test extends TestCase
