@@ -1,6 +1,6 @@
 FROM php:8.1-cli
 
-MAINTAINER Jack Skinner
+MAINTAINER mazfreelance
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
