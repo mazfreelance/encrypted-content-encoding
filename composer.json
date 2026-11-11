@@ -1,19 +1,19 @@
 {
-    "name": "devjack/encrypted-content-encoding",
+    "name": "mazfreelance/encrypted-content-encoding",
     "description": "Encrypted Content-Encoding for HTTP (RFC8188)",
     "keywords": ["encryption", "rfc8188", "middleware", "encoding", "aes128gcm"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jack Skinner",
-            "homepage": "https://developerjack.com",
-            "email": "opensource@developerjack.com"
+            "name": "Mhd Azmin",
+            "homepage": "https://mohdazmin.com",
+            "email": "me@mohdazmin.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/devjack/encrypted-content-encoding/issues",
-        "source": "https://github.com/devjack/encrypted-content-encoding",
-        "docs": "https://github.com/devjack/encrypted-content-encoding"
+        "issues": "https://github.com/mazfreelance/encrypted-content-encoding/issues",
+        "source": "https://github.com/mazfreelance/encrypted-content-encoding",
+        "docs": "https://github.com/mazfreelance/encrypted-content-encoding"
     },
     "require": {
         "php": ">=8.0",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DevJack\\EncryptedContentEncoding\\": "src/"
+            "Mazfreelance\\EncryptedContentEncoding\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DevJack\\EncryptedContentEncoding\\Test\\": "test/"
+            "Mazfreelance\\EncryptedContentEncoding\\Test\\": "test/"
         }
     },
     "require-dev": {
