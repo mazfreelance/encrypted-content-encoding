@@ -1,6 +1,6 @@
 <?php
 
-namespace DevJack\EncryptedContentEncoding;
+namespace Mazfreelance\EncryptedContentEncoding;
 
 interface EncryptionKeyProviderInterface {
     /*
