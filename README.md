@@ -77,7 +77,7 @@ $decoded = RFC8188::rfc8188_decode(
 Available via composer.
 
 ```
-composer require devjack/encrypted-content-encoding
+composer require mazfreelance/encrypted-content-encoding
 ```
 
 Requires PHP 8.0 or later. The library uses PHP's native OpenSSL AEAD GCM support
