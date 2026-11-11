@@ -1,8 +1,8 @@
 <?php
-namespace DevJack\EncryptedContentEncoding\Test\Mock;
+namespace Mazfreelance\EncryptedContentEncoding\Test\Mock;
 
-use DevJack\EncryptedContentEncoding\Exception\EncryptionKeyNotFound;
-use DevJack\EncryptedContentEncoding\EncryptionKeyProviderInterface;
+use Mazfreelance\EncryptedContentEncoding\Exception\EncryptionKeyNotFound;
+use Mazfreelance\EncryptedContentEncoding\EncryptionKeyProviderInterface;
 
 class MockKeyLookupProvider implements EncryptionKeyProviderInterface {
 
