@@ -1,5 +1,5 @@
 <?php
-namespace DevJack\EncryptedContentEncoding;
+namespace Mazfreelance\EncryptedContentEncoding;
 
 class RFC8188
 {
