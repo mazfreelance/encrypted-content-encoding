@@ -1,6 +1,6 @@
 <?php
 
-namespace DevJack\EncryptedContentEncoding\Exception;
+namespace Mazfreelance\EncryptedContentEncoding\Exception;
 
 class EncryptionKeyNotFound extends \Exception {
 
