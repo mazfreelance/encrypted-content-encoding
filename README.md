@@ -77,13 +77,10 @@ $decoded = RFC8188::rfc8188_decode(
 Available via composer.
 
 ```
-composer require devjack/encrypted-content-encoding
+composer require mazfreelance/encrypted-content-encoding
 ```
 
-### PHP 5.6 compatibility
-Additionally, install a polyfill for random_bytes such as:
-
-```
-composer require paragonie/random_compat
-```
+Requires PHP 8.0 or later. The library uses PHP's native OpenSSL AEAD GCM support
+(`openssl_encrypt`/`openssl_decrypt`), available since PHP 7.1, so there are no
+external encryption dependencies at runtime.
 
